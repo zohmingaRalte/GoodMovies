@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #121212;
+  --secondary-color: #bdbdbd;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.App {
+  font-family: "Play", sans-serif;
+  text-align: center;
+}
+
+button {
+  font-family: "Play", sans-serif;
+  border-radius: 0.5rem;
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+  padding: 0.4rem 2rem;
+  margin: 5px;
+  background-color: var(--primary-color);
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+hr {
+  margin-bottom: 3rem;
+}
+
+img {
+  height: 250px;
+  width: 200px;
+}
+
+.about {
+  padding: 1rem;
+  padding-left: 5rem;
+  display: inline;
+  height: 250px;
+  width: 200px;
+  float: left;
+}
+.imageDiv {
+  height: 250px;
+  width: 200px;
+  display: inline;
+  float: left;
+}
